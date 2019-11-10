@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: supersecret
+      POSTGRES_USER: admin
+      POSTGRES_DB: users
+    networks:
+      - overlay
+
+networks:
+  overlay:
