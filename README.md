@@ -5,6 +5,8 @@ A talk demo I've given, using Vault to manage dynamic credentials of a Postgres 
 
 As part of my talk titled "Secrets are hard to manage. How to manage your secrets and keep them safe", I describe Secret Sprawl, and Secret Management. One of the tools I recommend (though I have no affiliation to Hashicorp), is Hashicorp Vault.
 
+See the slides here: https://www.slideshare.net/secret/3FBA3P7ZYSpN5A
+
 ## The demo
 
 ### Prerequisites 
